@@ -54,7 +54,7 @@ public class RunGraphics {
         Shot sh;
 
         public showGraphics(Dimension dimension) {
-            s = new Ship(200,500,57,35,5,"player.png");
+            s = new Ship(200,500,87,35,5,"player.png");
             sh = new Shot(200,500,5,20,15,"shot.png");
             int x = 20;
             int y = 20;
