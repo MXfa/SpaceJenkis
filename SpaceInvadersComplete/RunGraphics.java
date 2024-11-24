@@ -178,7 +178,7 @@ public class RunGraphics {
         public void mousePressed(MouseEvent e) {
             int x = e.getX();
             int y = e.getY();
-
+            
         }
 
         public void mouseReleased(MouseEvent e) {
@@ -216,7 +216,7 @@ public class RunGraphics {
         public void run() {
             long beforeTime, timeDiff, sleep;
             beforeTime = System.currentTimeMillis();
-            int animationDelay = 37;
+            int animationDelay = 70;
             long time = System.currentTimeMillis();
             while (true) {// infinite loop
                 // spriteManager.update();
