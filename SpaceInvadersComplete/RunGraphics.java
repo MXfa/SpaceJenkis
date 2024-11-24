@@ -56,8 +56,8 @@ public class RunGraphics {
         public showGraphics(Dimension dimension) {
             s = new Ship(200,500,57,35,5,"player.png");
             sh = new Shot(200,500,5,20,15,"shot.png");
-            int x = 10;
-            int y = 10;
+            int x = 20;
+            int y = 20;
             for(int r = 0; r<a.length; r++){
                 for (int c = 0; c<a[0].length; c++){
                     a[r][c] = new Alien(x,y,30,20,5,"alien.png");
